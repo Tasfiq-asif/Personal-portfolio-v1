@@ -62,7 +62,7 @@ const About = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="text-l-4xl font-bold max-w-3xl mx-auto text-gray-400"
+          className="text-l-4xl font-bold max-w-xl mx-auto text-gray-400"
         >
           I hold a Bachelor in Textile Technology from Ahsanullah University of Science and Technology, 
           and a Master of Software Engineering from Torrens University Australia.
@@ -75,7 +75,7 @@ const About = () => {
           hidden: { opacity: 0, y: 20 }
         }}
         transition={{ duration: 0.8, delay: 2 }}
-        className="flex justify-center space-x-6 text-4xl text-teal-400 my-6"
+        className="flex flex-wrap gap-3 h-16 justify-center space-x-6 text-4xl text-teal-400 my-6"
       >
         <FaReact title="React" />
         <SiJavascript title="JavaScript" />
