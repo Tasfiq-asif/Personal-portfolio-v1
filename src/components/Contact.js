@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   const form = useRef();
@@ -10,10 +11,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+        "service_e42nhh8", // Replace with your EmailJS service ID
+        "template_1ajlzuw", // Replace with your EmailJS template ID
         form.current,
-        "YOUR_USER_ID" // Replace with your EmailJS user ID (or public key)
+        "jcc4C_j_kSGgcup7L" // Replace with your EmailJS user ID (or public key)
       )
       .then(
         (result) => {
@@ -66,6 +67,25 @@ const Contact = () => {
         </button>
       </form>
       {sent && <p className="text-green-500 text-center mt-4">Your message has been sent!</p>}
+
+      <div className="w-full flex justify-center items-center gap-6">
+        <div className=" flex items-center justify-center  ">
+          Follow Me on
+        </div>
+        <div>
+        <div className="flex justify-center items-center space-x-6 ">
+        <a href="https://www.facebook.com/tasfiq/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-400 transition duration-300">
+          <FaFacebook size={24} />
+        </a>
+        <a href="www.linkedin.com/in/tasfiqul-asif" target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-400 transition duration-300">
+          <FaLinkedin size={24} />
+        </a>
+        <a href="https://github.com/Tasfiq-asif" target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-400 transition duration-300">
+          <FaGithub size={24} />
+        </a>
+      </div>
+        </div>
+      </div>
     </section>
   );
 };

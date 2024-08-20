@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-center items-center h-screen text-center px-4 md:px-8 lg:px-16 mx-3">
+    <section className="flex flex-col justify-center items-center h-screen text-center px-4 md:px-8 lg:px-16">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
