@@ -29,9 +29,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="p-8 ">
+    <section id="contact" className="p-8  ">
       <h2 className="text-3xl font-bold text-center mb-6">Contact Me</h2>
-      <form ref={form} onSubmit={sendEmail} className="max-w-lg mx-auto  p-6 rounded-lg shadow-md">
+      <form ref={form} onSubmit={sendEmail} className="max-w-3xl mx-auto  p-6 rounded-lg shadow-md ">
         <label htmlFor="name" className="block text-gray-200 mb-2 bg">Name:</label>
         <input 
           type="text" 
