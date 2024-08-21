@@ -87,7 +87,7 @@ const About = () => {
       </motion.div>
 
       <motion.a
-  href="https://docs.google.com/document/d/1WHen_pmwbG_uFEC4stXjljZo8Q_VyOyYxxKlZCIT8pA/edit?usp=drive_link"
+  href="https://drive.google.com/file/d/1niNSW0bMZBLBx4Ju8zduRBk5qkyjZ0Jc/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-block bg-teal-400 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-teal-500 mt-7"
