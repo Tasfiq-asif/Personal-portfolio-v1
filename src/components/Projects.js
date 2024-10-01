@@ -4,7 +4,8 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiFirebase, SiTailwindcss } from "react-icons/si";
 import Matchmaker from '../assets/Matchmaker.png'
 import Jobhunt from '../assets/jobhunt.png'
-import artsio from '../assets/artsio.png'
+import { SiMui } from "react-icons/si";
+import LLemon from '../assets/Little-lemon.png'
 
 const projects = [
   {
@@ -23,10 +24,10 @@ const projects = [
   },
   {
     title: "Project 3",
-    description: "This website is a platform dedicated to the exploration and appreciation of various art and craft categories.",
-    imageUrl: artsio,
-    liveLink: "https://artsio-2a535.web.app/",
-    technologies: [<FaReact />, <FaNodeJs />, <SiMongodb />, <SiTailwindcss />],
+    description: "This website is a Restaurant Website. Where user can do reservation and order food online",
+    imageUrl: LLemon,
+    liveLink: "https://littlelemon-6efed.web.app/",
+    technologies: [<FaReact />, <FaNodeJs />, <SiMongodb />, <SiTailwindcss />, <SiMui />],
   },
   // Add more projects as needed
 ];
